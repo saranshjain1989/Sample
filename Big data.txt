@@ -1,0 +1,74 @@
+5 Big data problems: 
+
+Ingestion,
+Storage,
+Processing,
+Analysis,
+Exploration
+
+5 V's of big data:
+
+Volume
+Velocity
+Variety
+Varacity
+----Value
+
+Diff. b/w big data and data science
+
+
+HADOOP:
+
+Named by Doug Cuting
+Kernel of big data
+Free framework: apache.hadoop.org
+Scalabale horizontally
+Fault tolerant
+Commodity hardware (readily available)
+No low level programming
+Distributed system
+
+Vendors: Cloudera, Hortonworks, MApR, Infosys, IBM, Intel, Microsoft
+
+
+Logical Architecture: hollistic view
+
+Single Node architecture:
+
+Hardware--> OS--> --> JRE--> Storage --> Processing --> ANalysis/ Ingestion --> Exploration
+
+
+NoSQL (not Only SQL)-->
+Thease are for specialized use-cases, ex:
+
+graphs,
+Key-values,
+document storage,-- > Mongo DB :  Flexible Schema, GeoSpatial queries (Polyglot persistence-- on youtube)
+                      Elastic search: More languages
+search    --->  solar, elastic search
+colonar --> HBase
+
+
+Row-oriented DBs: 
+
+HBase: Hadoop database: colronal db: random read write
+
+
+HDFS vs HBase:
+
+File system   ------   No SQL DB
+Sequential access ----  Randowm read-write
+No updates allowed (append is allowed) 
+
+
+
+Processing frameworks: Map reduce, spark
+
+
+
+
+Skype group
+Youtube video: Polygot persistence by Shekhar Gulati
+Udacity: Introduction to Hadoop and Map reduce
+Large block size 
+
